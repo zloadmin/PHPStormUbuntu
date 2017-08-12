@@ -1,8 +1,0 @@
-<templateSet group="Bootstrap">
-  <template name="btable" value="&lt;table class=&quot;table&quot;&gt;&#10;    &lt;thead&gt;&#10;      &lt;tr&gt;&#10;        &lt;th&gt;&lt;/th&gt;&#10;      &lt;/tr&gt;&#10;    &lt;/thead&gt;&#10;    &lt;tbody&gt;&#10;      &lt;tr&gt;&#10;        &lt;td&gt;&lt;/td&gt;&#10;      &lt;/tr&gt;&#10;    &lt;/tbody&gt;&#10;&lt;/table&gt;" description="Bootstrap Table" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML" value="true" />
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-</templateSet>
