@@ -1,0 +1,45 @@
+<templateSet group="Bulma">
+  <template name="btextfield" value="&lt;!--- $VALUE$ Field ---&gt;&#10;&lt;div class=&quot;field&quot;&gt;&#10;    &lt;label for=&quot;$NAME$&quot; class=&quot;label&quot;&gt;$VALUE$:&lt;/label&gt;&#10;    &lt;p class=&quot;control&quot;&gt;&#10;        &lt;input class=&quot;input&quot; type=&quot;text&quot; name=&quot;$NAME$&quot; id=&quot;$NAME$&quot;&gt;&#10;    &lt;/p&gt;&#10;&lt;/div&gt;" description="Text Field Bulma" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="btext" value="&lt;p class=&quot;control&quot;&gt;&#10;    &lt;input class=&quot;input&quot; type=&quot;text&quot; name=&quot;$NAME$&quot; id=&quot;$NAME$&quot; placeholder=&quot;$PLACEHOLDER$&quot;&gt;&#10;&lt;/p&gt;" description="Text Input Bulma" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PLACEHOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="bsubmit" value="&lt;!--- $SUBMIT$ Button ---&gt;&#10;&lt;div class=&quot;field&quot;&gt;&#10;    &lt;p class=&quot;control&quot;&gt;&#10;        &lt;button class=&quot;button is-primary&quot;&gt;$SUBMIT$&lt;/button&gt;&#10;    &lt;/p&gt;&#10;&lt;/div&gt;" description="Submit Button Bulma" toReformat="false" toShortenFQNames="true">
+    <variable name="SUBMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="bradiofield" value="&lt;!--- $VALUE$ Field ---&gt;&#10;&lt;div class=&quot;field&quot;&gt;&#10;    &lt;p class=&quot;control&quot;&gt;&#10;        &lt;label class=&quot;radio&quot;&gt;&#10;            &lt;input type=&quot;radio&quot; name=&quot;$NAME$&quot;&gt;&#10;            $VALUE$&#10;        &lt;/label&gt;&#10;    &lt;/p&gt;&#10;&lt;/div&gt;" description="Radio Field Bulma" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="btextareafield" value="&lt;!--- $VALUE$ Field ---&gt;&#10;&lt;div class=&quot;field&quot;&gt;&#10;    &lt;label for=&quot;$NAME$&quot; class=&quot;label&quot;&gt;$VALUE$:&lt;/label&gt;&#10;    &lt;p class=&quot;control&quot;&gt;&#10;        &lt;textarea name=&quot;$NAME$&quot; id=&quot;$NAME$&quot; class=&quot;textarea&quot;&gt;&lt;/textarea&gt;&#10;    &lt;/p&gt;&#10;&lt;/div&gt;" description="Textarea Field Bulma" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
