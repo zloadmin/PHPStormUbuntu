@@ -1,3 +1,3 @@
 <templateSet group="users">
-  <template name="&lt;abbreviation&gt;" value="test" toReformat="false" toShortenFQNames="true" />
+  <template name="&lt;abbreviation&gt;" value="test" description="" toReformat="false" toShortenFQNames="true" />
 </templateSet>
