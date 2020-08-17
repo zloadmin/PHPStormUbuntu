@@ -1,7 +1,11 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="ParameterInfo" />
+  <action id="Replace" />
 </keymap>
