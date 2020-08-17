@@ -1,0 +1,7 @@
+<keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="ParameterInfo" />
+</keymap>
