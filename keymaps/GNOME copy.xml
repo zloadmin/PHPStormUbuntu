@@ -1,4 +1,9 @@
 <keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
@@ -6,6 +11,13 @@
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -35,6 +47,10 @@
   <action id="ParameterInfo" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
+  <action id="ProblemsView.CopyProblemDescription">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl e" />
     <keyboard-shortcut first-keystroke="alt e" />
@@ -42,4 +58,18 @@
   <action id="Replace" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="XDebugger.CopyValue">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
 </keymap>
