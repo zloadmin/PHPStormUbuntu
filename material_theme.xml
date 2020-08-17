@@ -1,12 +1,11 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="highContrast" value="true" />
-    <option name="isHighContrast" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="treeFontSize" value="14" />
-    <option name="settingsSelectedTab" value="2" />
-    <option name="accentColor" value="009688" />
+    <option name="settingsSelectedTab" value="5" />
+    <option name="accentColor" value="79cb60" />
+    <option name="selectedTheme" value="GITHUB" />
     <option name="userId" value="65eb38a9:173f8df37dd:-8000" />
     <option name="version" value="5.2.0" />
   </component>
