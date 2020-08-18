@@ -1,9 +1,16 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="compactMenus" value="true" />
+    <option name="compactStatusBar" value="true" />
+    <option name="contrastMode" value="true" />
+    <option name="compactDropdowns" value="true" />
+    <option name="isCompactMenus" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isContrastMode" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="treeFontSize" value="14" />
-    <option name="settingsSelectedTab" value="5" />
+    <option name="settingsSelectedTab" value="1" />
     <option name="accentColor" value="79cb60" />
     <option name="selectedTheme" value="GITHUB" />
     <option name="userId" value="65eb38a9:173f8df37dd:-8000" />
