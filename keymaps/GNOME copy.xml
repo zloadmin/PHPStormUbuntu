@@ -7,6 +7,10 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
@@ -32,6 +36,7 @@
     <keyboard-shortcut first-keystroke="shift home" />
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift alt insert" />
     <keyboard-shortcut first-keystroke="shift alt 8" />
